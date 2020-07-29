@@ -15,6 +15,7 @@ namespace MileVendas.Context
         }
 
         public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Teste> Testes { get; set; }
         public DbSet<PedidoCapa> PedidoCapas { get; set; }
     }
 }
